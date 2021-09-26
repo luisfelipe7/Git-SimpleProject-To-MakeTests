@@ -34,5 +34,13 @@ id = Id;
 age = Age;
 }
 
+// Obtain person information
+void personalInformation(){
+cout << "Hello, this is my personal information:"<<endl;
+cout << "- Name : "<<name<<endl;
+cout << "- Id : "<<id<<endl;
+cout << "- Age : "<<age<<endl;
+}
+
 
 };
