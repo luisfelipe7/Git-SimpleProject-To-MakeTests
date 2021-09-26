@@ -10,9 +10,10 @@ Information: Created to perform simple tests with Git
 
 using namespace std;
 
-int main(){
-
-    cout << "Hello all, I am making this as a test to practice Git" << endl;
+int main()
+{
+    // Saying Hello and explaining the creation of this class
+    cout << "Hello World, I am making this as a test to practice Git" << endl;
 
     return 0;
 }
