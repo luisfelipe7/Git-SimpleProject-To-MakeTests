@@ -39,5 +39,7 @@ int main()
     cout << endl;
     system("pause");
 
+    cout << "Until here is completed the Release v2.0" << endl;
+
     return 0;
 }
