@@ -14,25 +14,29 @@ int main()
 {
     // Saying Hello and explaining the creation of this class
     cout << "Hello World, I am making this as a test to practice Git Branches" << endl;
+    cout << endl;
+    system("pause");
+    cout << endl;
 
     // Creating one person and testing the methods
-    Person p1("Yenifer", "402300414", 25);
+    Person p1("Yenifer", "902300414", 25);
     p1.personalInformation();
     if (!(p1.isLegalAge()))
     {
-        cout << "This person is having the legal age" << endl;
+        cout << "This person is having the legal age (+18)" << endl;
     }
     else
     {
-        cout << "This person is not having the legal age" << endl;
+        cout << "This person is not having the legal age (-18)" << endl;
     }
 
     cout << endl;
     system("pause");
     cout << endl;
 
-    cout << "Testing the method to get the first value of the string" << endl;
-    cout << "Here is the value: " << p1.gettingFirstValueFromString("116890358") << endl;
+    cout << "Here we are checking based on the ID where the person was born:" << endl;
+    p1.provinceBornById();
+    cout << endl;
     system("pause");
 
     return 0;
