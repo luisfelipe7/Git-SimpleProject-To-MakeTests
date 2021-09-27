@@ -16,14 +16,23 @@ int main()
     cout << "Hello World, I am making this as a test to practice Git Branches" << endl;
 
     // Creating one person and testing the methods
-    Person p1("Yenifer","402300414",25);
+    Person p1("Yenifer", "402300414", 25);
     p1.personalInformation();
-    if(!(p1.isLegalAge())){
-        cout<<"This person is having the legal age"<<endl;
-    }else{
-        cout<<"This person is not having the legal age"<<endl;
+    if (!(p1.isLegalAge()))
+    {
+        cout << "This person is having the legal age" << endl;
     }
-    cout<<endl;
+    else
+    {
+        cout << "This person is not having the legal age" << endl;
+    }
+
+    cout << endl;
+    system("pause");
+    cout << endl;
+
+    cout << "Testing the method to get the first value of the string" << endl;
+    cout << "Here is the value: " << p1.gettingFirstValueFromString("116890358") << endl;
     system("pause");
 
     return 0;

@@ -50,4 +50,26 @@ public:
     {
         return (age < 18);
     }
+
+    // Method to get the first character from an string in an int value
+    int gettingFirstValueFromString(string value)
+    {
+        char firstCharacter = value.at(0);
+        cout << "This one is the first character: " << firstCharacter << endl;
+        return 0;
+    }
+
+    // Method to define to define in which province the person was born based on the ID
+    void provinceBornById()
+    {
+        switch (gettingFirstValueFromString(id))
+        {
+        case 1:
+            /* code */
+            break;
+
+        default:
+            break;
+        }
+    }
 };
