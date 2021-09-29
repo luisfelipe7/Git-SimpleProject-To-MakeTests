@@ -51,6 +51,11 @@ public:
         return (age < 18);
     }
 
+    // Method to get the name of the person
+    string getName(){
+        return name;
+    }
+
     // Method to get the first character from an string in an int value
     int gettingFirstValueFromString(string value)
     {
