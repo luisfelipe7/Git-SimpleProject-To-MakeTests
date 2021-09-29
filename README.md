@@ -7,7 +7,7 @@
   Learning About Git and GitHub
   <br>
 </h1>
-<h4 align="center">Using C++ and this repository to do basic exercises to learn Git and GitHub as taught in the course https://www.udemy.com/course/git-expert-4-hours/ </h4>
+<h4 align="center">Using C++ and this repository to do basic exercises to review the essentials of Git and GitHub as taught in the course https://www.udemy.com/course/git-expert-4-hours/ </h4>
 
 <p align="center">
   •<a href="#installation">Installation</a> •
