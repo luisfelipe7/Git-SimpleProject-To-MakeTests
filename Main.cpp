@@ -47,5 +47,10 @@ int main()
     p2.provinceBornById();
     system("pause");
 
+    // Creating another person and testing the methods
+    Person p2("Federico", "716890358", 15);
+    p2.provinceBornById();
+    system("pause");
+
     return 0;
 }
