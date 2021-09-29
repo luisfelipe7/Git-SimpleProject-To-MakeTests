@@ -58,6 +58,11 @@ public:
         return firstCharacter - 48;
     }
 
+    // Method to get the name of the Person
+    string getName(){
+        return name;
+    }
+
     // Method to define to define in which province the person was born based on the ID
     void provinceBornById()
     {
