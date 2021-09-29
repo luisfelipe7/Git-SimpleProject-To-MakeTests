@@ -19,7 +19,7 @@ int main()
     cout << endl;
 
     // Creating one person and testing the methods
-    Person p1("Yenifer", "902300414", 25);
+    Person p1("Yenifer", "402300414", 25);
     p1.personalInformation();
     if (!(p1.isLegalAge()))
     {
@@ -37,9 +37,15 @@ int main()
     cout << "Here we are checking based on the ID where the person was born:" << endl;
     p1.provinceBornById();
     cout << endl;
-    system("pause");
 
     cout << "Until here is completed the Release v2.0" << endl;
+    system("pause");
+    system("cls");
+
+    // Creating another person and testing the methods
+    Person p2("Felipe", "116890358", 23);
+    p2.provinceBornById();
+    system("pause");
 
     return 0;
 }
